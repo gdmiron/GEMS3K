@@ -13,6 +13,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: |
-    - bash ci/travis/install.sh
-  displayName: 'make'
+- task: Bash@3
+  inputs:
+    filePath: 'ci/travis/install.sh'
