@@ -15,4 +15,4 @@ pool:
 steps:
 - task: Bash@3
   inputs:
-    filePath: 'ci/travis/install.sh'
+    filePath: 'ci/pipelines/install.sh'
